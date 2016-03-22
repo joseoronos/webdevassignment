@@ -1,0 +1,440 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url('images/background2.png');
+	background-repeat: repeat;
+}
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	background-color: white;
+	box-shadow: 0px 0px 10px 0px rgb(100,100,100);
+	padding-bottom: 40px;
+}
+
+#header {
+	width: inherit;
+	height: 250px;
+}
+
+#logo {
+	margin-top: 150px;
+	margin-left: 40px;
+}
+
+#navigation {
+	width: inherit;
+	height: 40px;
+	background-color: #ff6600;
+}
+
+#navigation ul {
+	position: absolute;
+	margin-top: 8px;
+}
+
+#navigation li {
+	float: left;
+	margin-right: 30px;
+	font-family: Montserrat;
+	font-size: 20px;
+	display: inline;
+	text-align: inline;
+}
+
+#navigation a:link {
+	color: white;
+	text-decoration: none;
+}
+
+#navigation a:visited {
+	color: white;
+}
+
+#navigation a:hover {
+	text-decoration: underline;
+}
+
+#about {
+	float: left;
+	margin-top: 40px;
+	margin-left: 40px;
+	height: 485px;
+	width: 600px;
+	background-color: #f2f2f2;
+}
+
+#about p {
+	width: 570px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Montserrat";
+	font-weight: 200;
+	margin-top: 50px;
+	text-align: justify;
+	font-size: 16px;
+}
+
+#about p span {
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+
+#aboutheader {
+	position: absolute;
+	width: inherit;
+	height: 40px;
+	background-color: #ff6600;
+}
+
+#aboutheader h1 {
+	margin-top: 0;
+	margin-left: 10px;
+	font-family: "Montserrat";
+	color: white;
+}
+
+#aboutimg {
+	width: 570px;
+	height: 130px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#announcements {
+	float: right;
+	margin-top: 40px;
+	margin-right: 40px;
+	width: 300px;
+	height: 270px;
+	background-color: #f2f2f2;
+	/*outline: 1px solid black;*/
+}
+
+#announcements p {
+	width: 270px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Montserrat";
+	font-weight: 200;
+	margin-top: 50px;
+	text-align: justify;
+	font-size: 16px;
+}
+
+#announcementsheader {
+	position: absolute;
+	width: inherit;
+	height: 40px;
+	background-color: #ff6600;
+}
+
+#announcementsheader h1 {
+	margin-top: 7px;
+	margin-left: 10px;
+	font-family: "Montserrat";
+	font-size: 20px;
+	color: white;
+}
+
+#contacts {
+	float: right;
+	margin-right: 40px;
+	margin-top: 40px;
+	width: 300px;
+	height: 175px;
+	background-color: #f2f2f2;
+}
+
+#contactsheader {
+	position: absolute;
+	width: inherit;
+	height: 40px;
+	background-color: #ff6600;
+}
+
+#contactsheader h1 {
+	margin-top: 7px;
+	margin-left: 10px;
+	font-family: "Montserrat";
+	font-size: 20px;
+	color: white;
+}
+
+#contactsdetails {
+	margin-top: 55px;
+	margin-left: -20px;
+}
+
+#contactsdetails li {
+	list-style: none;
+	font-family: "Montserrat";
+	font-weight: 300;
+}
+
+#cosplay {
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 40px;
+	width: 922px;
+	height: 290px;
+	background-color: #f2f2f2;
+}
+
+#cosplay p {
+	width: 882px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Montserrat";
+	font-weight: 200;
+	margin-top: 50px;
+	text-align: justify;
+}
+
+#cosplayheader {
+	position: absolute;
+	width: inherit;
+	height: 40px;
+	background-color: #ff6600;
+}
+
+#cosplayheader h1 {
+	margin-top: 0px;
+	margin-left: 10px;
+	font-family: "Montserrat";
+	color: white;
+}
+
+#images {
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 40px;
+	width: 480px;
+	height: 375px;
+	background-color: #f2f2f2;
+}
+
+#images img{
+	margin-top: 60px;
+	margin-left: 15px;	
+}
+
+
+#imagesheader {
+	position: absolute;
+	width: inherit;
+	height: 40px;
+	background-color: #ff6600;
+}
+
+#imagesheader h1 {
+	margin-top: 0px;
+	margin-left: 10px;
+	font-family: "Montserrat";
+	color: white;
+}
+
+#links {
+	display: inline-block;
+	float: right;
+	margin-right: 40px;
+	margin-top: 40px;
+	width: 420px;
+	height: 375px;
+	background-color: #f2f2f2;
+}
+
+#linksheader {
+	position: absolute;
+	width: inherit;
+	height: 40px;
+	background-color: #ff6600;
+}
+
+#linksheader h1 {
+	margin-top: 0px;
+	margin-left: 10px;
+	font-family: "Montserrat";
+	color: white;
+}
+
+#links h2 {
+	margin-top: 50px;
+	margin-left: 10px;
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+
+#founders {
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 40px;
+	width: 922px;
+	height: 745px;
+	background-color: #f2f2f2;
+}
+
+#foundersheader {
+	position: absolute;
+	width: inherit;
+	height: 40px;
+	background-color: #ff6600;
+}
+
+#foundersheader h1 {
+	margin-top: 0px;
+	margin-left: 10px;
+	font-family: "Montserrat";
+	color: white;
+}
+
+#steven {
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 300px;
+	font-family: "Montserrat";
+}
+
+#steven img {
+	margin-left: 20px;
+	float: left;
+}
+
+#steven p {
+	width: 530px;
+	float: right;
+	font-weight: 200;
+	font-size: 20px;
+}
+
+#sally {
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 300px;
+	font-family: "Montserrat";
+}
+
+#sally img {
+	margin-left: 20px;
+	float: left;
+}
+
+#sally p {
+	width: 530px;
+	float: right;
+	font-weight: 200;
+	font-size: 20px;
+}
+
+#guidelines {
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 40px;
+	width: 922px;
+	height: 160px;
+	background-color: #f2f2f2;
+}
+
+#guidelines p {
+	width: 882px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Montserrat";
+	font-weight: 200;
+	margin-top: 50px;
+	text-align: justify;
+}
+
+#guidelinesheader {
+	position: absolute;
+	width: inherit;
+	height: 40px;
+	background-color: #ff6600;
+}
+
+#guidelinesheader h1 {
+	margin-top: 0px;
+	margin-left: 10px;
+	font-family: "Montserrat";
+	color: white;
+}
+
+#party {
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 40px;
+	width: 922px;
+	height: 330px;
+	background-color: #f2f2f2;
+}
+
+#party p {
+	width: 882px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Montserrat";
+	font-weight: 200;
+	margin-top: 50px;
+	text-align: justify;
+}
+
+#party h2 {
+	margin-top: 50px;
+	margin-left: 10px;
+	font-family: "Montserrat";
+}
+
+#partyheader {
+	position: absolute;
+	width: inherit;
+	height: 40px;
+	background-color: #ff6600;
+}
+
+#partyheader h1 {
+	margin-top: 0px;
+	margin-left: 10px;
+	font-family: "Montserrat";
+	color: white;
+}
+
+#partydetails {
+	font-family: "Montserrat";
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -20px;
+	width: 500px;
+	line-height: 50px;
+}
+
+.value {
+	color: #cccccc;
+}
+
+
+#footer {
+	width: 1000px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Helvetica"
+}
+
+#copyright {
+	float: left;
+}
+
+#creator {
+	float: right;
+}
+
+
+
