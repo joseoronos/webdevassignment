@@ -1,462 +1,346 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: rgb(234,234,234);
-}
-
-#wrapper {
-	margin-left: auto;
-	margin-right: auto;
-	width: 1000px;
-	background-color: white;
-	box-shadow: 0px 0px 10px 0px rgb(100,100,100);
-	padding-bottom: 40px;
 }
 
 #header {
-	width: inherit;
-	height: 250px;
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	padding: 20px;
+	color: white;
+	font-family: "Montserrat";
+	background-color: orange;
 }
 
-#logo {
-	margin-top: 150px;
-	margin-left: 40px;
-}
-
-#navigation {
-	width: inherit;
-	height: 40px;
-	background-color: #ff6600;
-}
-
-#navigation ul {
-	position: absolute;
-	margin-top: 8px;
-}
-
-#navigation li {
+#header h1 {
 	float: left;
-	margin-right: 30px;
-	font-family: Montserrat;
-	font-size: 20px;
-	display: inline;
-	text-align: inline;
+	font-size: 50px;
 }
 
-#navigation a:link {
+#header h1 a:link {
 	color: white;
 	text-decoration: none;
 }
 
-#navigation a:visited {
+#header h1 a:visited {
 	color: white;
 }
 
-#navigation a:hover {
+#header h1 a:hover {
+
+}
+
+#nav-contents {
+	float: right;
+	margin-right: 40px;
+	margin-top: 55px;
+}
+
+#nav-contents li {
+	display: inline;
+	margin-right: 20px;
+}
+
+#nav-contents a:link {
+	color: white;
+	text-decoration: none;
+}
+
+#nav-contents a:visited {
+	color: white;
+}
+
+#nav-contents a:hover {
 	text-decoration: underline;
 }
 
-#about {
-	float: left;
-	margin-top: 40px;
-	margin-left: 40px;
-	height: 485px;
-	width: 600px;
-	background-color: #f2f2f2;
+#wrapper {
+	margin-top: 167px;
 }
 
-#about p {
-	width: 570px;
+#feature {
+	height: 600px;
+	width: 100%;
+	background: url("images/book-fair-678264_1280.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+#feature h1 {
+	margin: 0;
+	color: white;
+	font-family: "Montserrat";
+	text-align: center;
+	font-size: 50px;
+	padding-top: 170px;
+}
+
+#cta {
 	margin-left: auto;
 	margin-right: auto;
-	font-family: "Montserrat";
-	font-weight: 200;
-	margin-top: 50px;
-	text-align: justify;
-	font-size: 16px;
 }
 
-#about p span {
-	font-family: "Montserrat";
-	font-weight: 700;
+#cta p {
+	text-align: center;
+	margin-top: 60px;
 }
 
-#aboutheader {
-	position: absolute;
-	width: inherit;
-	height: 40px;
-	background-color: #ff6600;
+#cta a:link {
+	color: white;
+	font-family: "Montserrat";
+	text-decoration: none;
+	outline: 7px solid white;
+	padding: 15px;
 }
 
-#aboutheader h1 {
-	margin-top: 0;
-	margin-left: 10px;
-	font-family: "Montserrat";
+#cta a:visited {
 	color: white;
 }
 
-#aboutimg {
-	width: 570px;
-	height: 130px;
-	margin-top: 20px;
+#cta a:hover {
+	background-color: rgba(266,166,63,0.8);
+}
+
+#about {
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#about-contents {
+	text-align: center;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	color: rgb(129,128,133);
+}
+
+#about-contents h1 {
+	color: orange;
+	font-family: "Montserrat";
+}
+
+#about-info {
+	font-family: "Montserrat";
+	font-weight: 200;
+	font-size: 12px;
+	margin-left: 10px;
+	margin-right: 10px;
+	vertical-align: top;
+	width: 300px;
+	display: inline-block;
+}
+
+#about-info img {
+	width: 300px;
+}
+
+#bottom-index {
+	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 #announcements {
-	float: right;
-	margin-top: 40px;
-	margin-right: 40px;
-	width: 300px;
-	height: 270px;
-	background-color: #f2f2f2;
-	/*outline: 1px solid black;*/
+	font-family: "Montserrat";
+}
+
+#announcements h1 {
+	font-size: 30px;
+	color: orange;
 }
 
 #announcements p {
-	width: 270px;
-	margin-left: auto;
-	margin-right: auto;
 	font-family: "Montserrat";
 	font-weight: 200;
-	margin-top: 50px;
-	text-align: justify;
-	font-size: 16px;
-}
-
-#announcementsheader {
-	position: absolute;
-	width: inherit;
-	height: 40px;
-	background-color: #ff6600;
-}
-
-#announcementsheader h1 {
-	margin-top: 7px;
-	margin-left: 10px;
-	font-family: "Montserrat";
-	font-size: 20px;
-	color: white;
-}
-
-#contacts {
-	float: right;
-	margin-right: 40px;
-	margin-top: 40px;
-	width: 300px;
-	height: 175px;
-	background-color: #f2f2f2;
-}
-
-#contactsheader {
-	position: absolute;
-	width: inherit;
-	height: 40px;
-	background-color: #ff6600;
-}
-
-#contactsheader h1 {
-	margin-top: 7px;
-	margin-left: 10px;
-	font-family: "Montserrat";
-	font-size: 20px;
-	color: white;
-}
-
-#contactsdetails {
-	margin-top: 55px;
-	margin-left: -20px;
-}
-
-#contactsdetails li {
-	list-style: none;
-	font-family: "Montserrat";
-	font-weight: 300;
-}
-
-#cosplay {
-	display: inline-block;
-	margin-left: 40px;
-	margin-top: 40px;
-	width: 922px;
-	height: 290px;
-	background-color: #f2f2f2;
-}
-
-#cosplay p {
-	width: 882px;
-	margin-left: auto;
-	margin-right: auto;
-	font-family: "Montserrat";
-	font-weight: 200;
-	margin-top: 50px;
-	text-align: justify;
-}
-
-#cosplayheader {
-	position: absolute;
-	width: inherit;
-	height: 40px;
-	background-color: #ff6600;
-}
-
-#cosplayheader h1 {
-	margin-top: 0px;
-	margin-left: 10px;
-	font-family: "Montserrat";
-	color: white;
-}
-
-#images {
-	display: inline-block;
-	margin-left: 40px;
-	margin-top: 40px;
-	width: 480px;
-	height: 375px;
-	background-color: #f2f2f2;
-}
-
-#images img{
-	margin-top: 60px;
-	margin-left: 15px;	
-}
-
-
-#imagesheader {
-	position: absolute;
-	width: inherit;
-	height: 40px;
-	background-color: #ff6600;
-}
-
-#imagesheader h1 {
-	margin-top: 0px;
-	margin-left: 10px;
-	font-family: "Montserrat";
-	color: white;
-}
-
-#links {
-	display: inline-block;
-	float: right;
-	margin-right: 40px;
-	margin-top: 40px;
-	width: 420px;
-	height: 375px;
-	background-color: #f2f2f2;
-}
-
-#linksheader {
-	position: absolute;
-	width: inherit;
-	height: 40px;
-	background-color: #ff6600;
-}
-
-#linksheader h1 {
-	margin-top: 0px;
-	margin-left: 10px;
-	font-family: "Montserrat";
-	color: white;
-}
-
-#links h2 {
-	margin-top: 50px;
-	margin-left: 10px;
-	font-family: "Montserrat";
-	font-weight: 400;
-}
-
-#founders {
-	display: inline-block;
-	margin-left: 40px;
-	margin-top: 40px;
-	width: 922px;
-	height: 745px;
-	background-color: #f2f2f2;
-}
-
-#foundersheader {
-	position: absolute;
-	width: inherit;
-	height: 40px;
-	background-color: #ff6600;
-}
-
-#foundersheader h1 {
-	margin-top: 0px;
-	margin-left: 10px;
-	font-family: "Montserrat";
-	color: white;
+	font-size: 15px;
+	color: rgb(129,128,133);
+	line-height: 35px;
 }
 
 #costumes {
-	display: inline-block;
-	margin-left: 40px;
-	margin-top: 40px;
-	width: 922px;
-	height: 745px;
-	background-color: #f2f2f2;
+	width: 1000px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-#costumesheader {
-	position: absolute;
-	width: inherit;
-	height: 40px;
-	background-color: #ff6600;
+#costumes h1 {
+	font-family: "Montserrat";
+	color: orange;
 }
 
-#costumesheader h1 {
-	margin-top: 0px;
-	margin-left: 10px;
+#costumes p {
+	font-family: "Montserrat";
+	font-weight: 200;
+	font-size: 15px;
+	color: rgb(129,128,133);
+}
+
+#costumes table {
+	width: 60%;
+	text-align: left;
+}
+
+#headings {
+	background-color: orange;
 	font-family: "Montserrat";
 	color: white;
+
 }
 
-#steven {
-	margin-top: 60px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 900px;
-	height: 300px;
-	font-family: "Montserrat";
+#headings th {
+	padding: 10px;
 }
 
-#steven img {
-	margin-left: 20px;
-	float: left;
-}
-
-#steven p {
-	width: 530px;
-	float: right;
-	font-weight: 200;
-	font-size: 20px;
-}
-
-#sally {
-	margin-top: 40px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 900px;
-	height: 300px;
-	font-family: "Montserrat";
-}
-
-#sally img {
-	margin-left: 20px;
-	float: left;
-}
-
-#sally p {
-	width: 530px;
-	float: right;
-	font-weight: 200;
-	font-size: 20px;
-}
-
-#guidelines {
-	display: inline-block;
-	margin-left: 40px;
-	margin-top: 40px;
-	width: 922px;
-	height: 160px;
-	background-color: #f2f2f2;
-}
-
-#guidelines p {
-	width: 882px;
-	margin-left: auto;
-	margin-right: auto;
+.table-items {
 	font-family: "Montserrat";
 	font-weight: 200;
-	margin-top: 50px;
-	text-align: justify;
-}
-
-#guidelinesheader {
-	position: absolute;
-	width: inherit;
-	height: 40px;
-	background-color: #ff6600;
-}
-
-#guidelinesheader h1 {
-	margin-top: 0px;
-	margin-left: 10px;
-	font-family: "Montserrat";
+	font-size: 15px;
 	color: white;
+	background-color: #cccccc;
 }
 
-#party {
-	display: inline-block;
-	margin-left: 40px;
-	margin-top: 40px;
-	width: 922px;
-	height: 330px;
-	background-color: #f2f2f2;
+.table-items td {
+	padding: 5px;
+
 }
 
-#party p {
-	width: 882px;
+#founders {
+	width: 1000px;
+	padding: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: "Montserrat";
-	font-weight: 200;
-	margin-top: 50px;
-	text-align: justify;
 }
 
-#party h2 {
-	margin-top: 50px;
-	margin-left: 10px;
+#founders h1, h2 {
 	font-family: "Montserrat";
+	color: orange;
 }
 
-#partyheader {
-	position: absolute;
-	width: inherit;
-	height: 40px;
-	background-color: #ff6600;
+.founders-information {
+	padding: 10px;
 }
 
-#partyheader h1 {
-	margin-top: 0px;
-	margin-left: 10px;
-	font-family: "Montserrat";
-	color: white;
+.founders-information img {
+	width: 45%;
 }
 
-#partydetails {
-	font-family: "Montserrat";
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -20px;
+.founders-information p {
 	width: 500px;
-	line-height: 50px;
+	float: right;
+	margin-right: 20px;
+	font-family: "Montserrat";
+	font-size: 20px;
+	font-weight: 200;
+	color: rgb(129,128,133);
+	line-height: 40px;
 }
 
-.value {
-	color: #cccccc;
+#what-is-cosplay {
+	width: 1000px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+#what-is-cosplay p {
+	font-family: "Montserrat";
+	font-size: 15px;
+	font-weight: 200;
+	color: rgb(129,128,133);
+	line-height: 35px;
+}
+
+#what-is-cosplay h1 {
+	font-family: "Montserrat";
+	color: orange;
+}
+
+#what-is-cosplay a:link {
+	color: #bbbbbb;
+	text-decoration: none;
+}
+
+#what-is-cosplay a:visited {
+	color: #bbbbbb;
+}
+
+#what-is-cosplay a:hover {
+	color: orange;
+}
+
+#party-registration {
+	width: 1000px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#party-registration h1, h2 {
+	font-family: "Montserrat";
+	color: orange;
+}
+
+.party-content {
+	padding: 10px;
+}
+
+.party-content p {
+	font-family: "Montserrat";
+	font-size: 15px;
+	font-weight: 200;
+	line-height: 35px;
+	color: rgb(129,128,133);
+}
+
+.party-content ul {
+	font-family: "Montserrat";
+	font-size: 15px;
+	font-weight: 200;
+	line-height: 35px;
+	color: rgb(129,128,133);
+}
 
 #footer {
-	width: 1000px;
-	height: 50px;
-	margin-left: auto;
-	margin-right: auto;
-	font-family: "Helvetica"
+	text-align: center;
+	margin-top: 30px;
+	padding: 15px;
+	background-color: rgb(30,29,30);
 }
 
-#copyright {
-	float: left;
+#footer p {
+	font-family: "Montserrat";
+	font-weight: 200;
+	font-size: 15px;
+	color: #eeeeee;
+	display: inline;
 }
 
-#creator {
-	float: right;
+#footer p a:link {
+	color: white;
+	text-decoration: none;
 }
 
+#footer p a:visited {
+	color: white;
+}
 
+#footer p a:hover {
+	text-decoration: underline;
+}
 
+hr {
+    border: 0;
+    height: 1px;
+    width: 400px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+#footer-bottom-level-contact p {
+	display: block;
+}
