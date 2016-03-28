@@ -162,7 +162,7 @@ body {
 	line-height: 35px;
 }
 
-#costumes {
+#costumes, #what-is-cosplay, #founders, #party-registration, #more-info {
 	width: 1000px;
 	padding: 20px;
 	margin-left: auto;
@@ -210,12 +210,14 @@ body {
 
 }
 
+/*
 #founders {
 	width: 1000px;
 	padding: 20px;
 	margin-left: auto;
 	margin-right: auto;
 }
+*/
 
 #founders h1, h2 {
 	font-family: "Montserrat";
@@ -241,12 +243,14 @@ body {
 	line-height: 40px;
 }
 
+/*
 #what-is-cosplay {
 	width: 1000px;
 	padding: 20px;
 	margin-left: auto;
 	margin-right: auto;
 }
+*/
 
 #what-is-cosplay p {
 	font-family: "Montserrat";
@@ -274,12 +278,14 @@ body {
 	color: orange;
 }
 
+/*
 #party-registration {
 	width: 1000px;
 	padding: 20px;
 	margin-left: auto;
 	margin-right: auto;
 }
+*/
 
 #party-registration h1, h2 {
 	font-family: "Montserrat";
@@ -304,6 +310,46 @@ body {
 	font-weight: 200;
 	line-height: 35px;
 	color: rgb(129,128,133);
+}
+
+.party-content a:link {
+	color: orange;
+	text-decoration: none;
+}
+
+/*
+#moreinfo {
+	width: 1000px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+*/
+
+#more-info h1 {
+	font-family: "Montserrat";
+	color: orange;
+}
+
+#more-info p {
+	font-family: "Montserrat";
+	font-size: 15px;
+	font-weight: 200;
+	color: rgb(129,128,133);
+	line-height: 35px;
+}
+
+#more-info a:link {
+	color: orange;
+	text-decoration: none;
+}
+
+#more-info a:visited {
+	color: orange;
+}
+
+#more-info a:hover {
+	text-decoration: underline;
 }
 
 #footer {
